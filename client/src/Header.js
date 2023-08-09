@@ -7,6 +7,7 @@ export default function Header() {
   useEffect(() => {
     fetch('https://blog-app-api-nine.vercel.app/profile', {
       credentials: 'include',
+      mode: 'no-cors',
     }).then(response => {
       response.json().then(userInfo => {
         setUserInfo(userInfo);
@@ -17,6 +18,7 @@ export default function Header() {
   function logout() {
     fetch('https://blog-app-api-nine.vercel.app/logout', {
       credentials: 'include',
+      mode: 'no-cors',
       method: 'POST',
     });
     setUserInfo(null);
