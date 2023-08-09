@@ -1,0 +1,38 @@
+.header{
+    margin-top: 60px;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* border: 1px solid blue; */
+    /* justify-content: center; */
+    color: #444;
+    font-family: 'Lora', serif;
+}
+.header-titlesmall{
+    font-size: 32px;
+    align-self: center;
+    font-weight: 500;
+    position: absolute;
+    top: 18%;
+}
+
+.header-titlelarge{
+    font-size: 72px;
+    font-weight: 500;
+    align-self: center;
+    position: absolute;
+    top: 20%;
+}
+
+.headerImg{
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+    margin-top: 80px;
+}

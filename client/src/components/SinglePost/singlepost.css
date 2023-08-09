@@ -1,0 +1,74 @@
+.singlePost{
+    flex: 9;
+}
+
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostImg{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    height: 300px;
+}
+
+.singlePostTitle{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Lora', sans-serif;
+}
+
+/* PUT MORE STYLING HERE */
+.singlePotsEdit{
+    float: right;
+}
+.singlePostIcon{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* For the Edit-Button */
+
+.singlePostIconEdit:first-child{
+    color: teal;
+    cursor: pointer;
+}
+
+.singlePostIconEdit:last-child{
+    color: rgba(218, 51, 51, 0.85);
+    cursor: pointer;
+}
+
+.singlePostInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #b69656;
+    font-size: 16px;
+    font-family: 'Valera Round', sans-serif;
+}
+
+.singlePostDate{
+    font-size: 18px;
+    font-family:  'Valera Round', sans-serif;
+    margin-right: 20px;
+}
+
+.singlePostDesc{
+    font-size: 18px;
+    font-family:  'Valera Round', sans-serif;
+    margin-top: 10px;
+    line-height: 25px;
+    margin-right: 20px;
+}
+
+.singlePostDesc::first-letter {
+    font-size: 28px;
+    font-family:  'Valera Round', sans-serif;
+    margin-left: 30px;
+    font-weight: 700;
+}
