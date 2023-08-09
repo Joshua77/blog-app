@@ -13,7 +13,7 @@ export default function LoginPage() {
     ev.preventDefault();
     const response = await fetch('https://blog-app-api-nine.vercel.app/login', {
       method: 'POST',
-      mode: 'cors',
+      mode: 'no-cors',
       body: JSON.stringify({username, password}),
       headers: {'Content-Type':'application/json'},
       credentials: 'include',
