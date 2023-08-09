@@ -1,7 +1,11 @@
 import "./singlepost.css";
 import download from "../../assets/download.jpg";
 import { useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext} from "react";
+import { NavLink } from "react-router-dom";
+
+import axios from "axios";
+import { Context } from "../context/Context";
 
 function SinglePost() {
   const location = useLocation();

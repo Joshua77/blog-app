@@ -13,7 +13,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Router>
         <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -23,7 +22,6 @@ function App() {
           <Route path="/settings" element={<Settings />} />
           <Route path="/post/:postId" element={<Single />} />
         </Routes>
-      </Router>
     </>
   );
 }
