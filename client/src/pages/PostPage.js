@@ -10,6 +10,7 @@ export default function PostPage() {
   const [postInfo,setPostInfo] = useState(null);
   const {userInfo} = useContext(UserContext);
   const {id} = useParams();
+  console.log(id)
   useEffect(() => {
     fetch(`https://blog-app-api-nine.vercel.app/post/${id}`)
       .then(response => {
